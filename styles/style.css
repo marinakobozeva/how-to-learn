@@ -39,11 +39,34 @@ section {
   background-image: url(../images/logo_place_header.svg);
 }
 
+.header__title {
+  display: flex;
+  width: 730px;
+  margin-left: 64px;
+  align-items: center;
+}
+
+.header__title-text {
+  margin: 0;
+  padding: 0;
+  line-height: 96px;
+  font-size: 102px;
+  font-weight: 600;
+}
+
 .header__subtitle {
   width: 388px;
   position: absolute;
   left: 64px;
   bottom: 30px;
+}
+
+.header__subtitle-text {
+  margin: 0;
+  padding: 0;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
 }
 
 .header__main-illustration {
@@ -135,6 +158,7 @@ section {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  list-style: none;
   
 }
 
@@ -162,21 +186,25 @@ section {
 }
 
 .feynman {
-  margin-top: 100px;
+  
 }
 
 .kaufman {
-  margin-top: 90px;
-  margin-bottom: 90px;
+  background-color: #1f1f1f;
+  color: white;
 }
+
 
 .section-title_theme_dark {
 
 }
 
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
+.kaufman__triangle {
+  width: 877px;
+  height: 877px;
+  position: absolute;
+}
 
-/* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
   width: 200px;
   color: white;
