@@ -6,19 +6,13 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
-div {
-  border: 1px solid red;
-}
-
-section {
-  border: 1px solid blue;
-}
 .header {
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
   display: flex;
   position: relative;
+  background-color: #f2f2f2;
 }
 
 .logo {
@@ -102,7 +96,6 @@ section {
 
 .two-columns {
   width: 80%;
-  min-height: 360px;
   display: flex;
   justify-content: space-between;
 }
@@ -209,6 +202,9 @@ section {
   margin: 0;
   height: 790px;
   position: relative;
+  background-color: #f2f2f2;
+  padding-top: 100px;
+  z-index: 1;
   
 }
 
@@ -219,6 +215,7 @@ section {
   line-height: 1.15;
   font-size: 120px;
   font-weight: 600;
+  z-index: 1;
 }
 
 .feynman__subtitle {
@@ -319,6 +316,8 @@ section {
   background-color: #1f1f1f;
   padding: 60px 0 40px;
   color: white;
+  display: flex;
+
   
 }
 
@@ -332,16 +331,13 @@ section {
 }
 
 
-.first-column {
+.footer__column_content-copyright {
   flex-basis: 711px;
 }
 
 .logo__footer {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 183px;
-  height: 35px;
+  width: 185px; /* Наставник разрешил сделать так (в брифе ширина 183), потому что не влезает */
+  height: 35px; 
   background-image: url(../images/logo_place_footer.svg);
 }
 
@@ -353,4 +349,30 @@ section {
   position: absolute;
   bottom: 0;
   left: 0;
+}
+
+.footer__column-heading-text {
+  margin: 0;
+  padding: 0;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: 600;
+  
+}
+
+.footer__column-links {
+  margin: 20px 0 16px;
+}
+
+.footer__column-link {
+  text-decoration: none;
+  color: white;
+  display: block;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.footer__column-link_img {
+  margin-right: 10px;
 }
