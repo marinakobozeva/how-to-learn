@@ -82,7 +82,6 @@
   position: absolute;
   top: 64px;
   right: 0;
-  
 }
 
 .description {
@@ -176,7 +175,6 @@
   justify-content: space-between;
   flex-wrap: wrap;
   list-style: none;
-  
 }
 
 .table__cell_theme_light {
@@ -205,7 +203,6 @@
   background-color: #f2f2f2;
   padding-top: 100px;
   z-index: 1;
-  
 }
 
 .feynman__title-text {
@@ -257,11 +254,9 @@
   position: relative;
   overflow: hidden;
   z-index: 0;
-  
 }
 
 .section-title-text_theme_dark {
-  
   line-height: 1.15;
   font-size: 60px;
   font-weight: 600;
@@ -274,11 +269,9 @@
 }
 
 .section-subtitle-text_theme_dark {
-  
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
-  
   z-index: 3;
 }
 
@@ -290,7 +283,6 @@
   right: -210px;
   top: 0;
   z-index: -1;
-  
 }
 
 .table__cell_theme_dark {
@@ -299,26 +291,11 @@
   margin-top: 80px;
 }
 
-.table__heading_h4 {
-  line-height: 1.15;
-  font-size: 24px;
-  font-weight: 600;
-}
-
-.table__text_paragraph {
-  line-height: 1.2;
-  font-size: 18px;
-  font-weight: normal;
-
-}
-
 .footer {
   background-color: #1f1f1f;
   padding: 60px 0 40px;
   color: white;
   display: flex;
-
-  
 }
 
 .footer__columns {
@@ -337,7 +314,7 @@
 
 .logo__footer {
   width: 185px; /* Наставник разрешил сделать так (в брифе ширина 183), потому что не влезает */
-  height: 35px; 
+  height: 35px;
   background-image: url(../images/logo_place_footer.svg);
 }
 
@@ -357,7 +334,6 @@
   line-height: 30px;
   font-size: 18px;
   font-weight: 600;
-  
 }
 
 .footer__column-links {
