@@ -212,9 +212,6 @@ section {
   
 }
 
-.feynman__title {
-  
-}
 .feynman__title-text {
   width: 648px;
   margin: 0 auto;
@@ -234,7 +231,6 @@ section {
   font-weight: normal;
   margin: 0 auto;
   text-align: center;
-
 }
 
 .feynman__link {
