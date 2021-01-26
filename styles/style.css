@@ -32,7 +32,7 @@
 .header__title {
   display: flex;
   width: 730px;
-  align-items: center;
+  align-self: center;
   z-index: 5;
   margin: 0;
   padding: 0;
@@ -273,7 +273,7 @@
   justify-content: space-between;
 }
 
-.logo__place_footer {
+.logo_place_footer {
   width: 185px; /* Наставник разрешил сделать так (в брифе ширина 183), потому что не влезает */
   height: 35px;
   background-image: url(../images/logo_place_footer.svg);
