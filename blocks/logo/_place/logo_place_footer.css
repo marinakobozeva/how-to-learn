@@ -1,0 +1,7 @@
+.logo_place_footer {
+    width: 185px; /* Наставник разрешил сделать так (в брифе ширина 183), потому что не влезает */
+    height: 35px;
+    background-image: url(../../../images/logo_place_footer.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
