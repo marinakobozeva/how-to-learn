@@ -1,6 +1,8 @@
 .footer {
-    background-color: #1f1f1f;
-    padding: 60px 0 40px;
-    color: white;
-    display: flex;
-  }
+  background-color: #1f1f1f;
+  padding: 60px 0 40px;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
